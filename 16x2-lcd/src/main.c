@@ -4,7 +4,9 @@
  Author      : Anirudh
  Version     :
  Copyright   :
- Description : Displaying time and CPU frequency on a 16x2 LCD.
+ Description : Displaying time and CPU frequency on a 16x2 LCD. The LCD is
+ 	 	 	   powered using SYS_5V pin of BBB. Since the RW pin of LCD is
+ 	 	 	   grounded, it is safe to connect to the 3.3V GPIOs of BBB.
  ============================================================================
  */
 
